@@ -38,8 +38,8 @@ CREATE DATABASE conexaoautista;
 ```
 No caminho src/main/resources/application.properties, insira:
 spring.datasource.url=jdbc:mysql://localhost:3306/conexaoautista
-spring.datasource.username=seuUsuario
-spring.datasource.password=suaSenha
+spring.datasource.username=conexao_autista
+spring.datasource.password=1234
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 springdoc.api-docs.path=/api-docs
@@ -88,9 +88,9 @@ Campos: id, data, humor, observacoes, usuario (relacionado)
 |--------------------|------------------|
 | Renata Andrade     | (2920482321037)  |
 | Vitor Rezende      | (2920482321018)  |
-| Priscila Romano    | (292048232)  |
+| Priscila Romano    | (2920482321014)  |
 | Higor Carlos       | (2920482321007)  |
-| Davi Barbosa       | (292048232)  |
+| Davi Barbosa       | (2920482321026)  |
 
 ## 📚 Documentação Técnica  
 - ✅ Projeto com arquitetura MVC
